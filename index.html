@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Web Page with Bootstrap</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <!-- // <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script> -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Raleway' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+  <div class="container">
+    <div class="row top-margin">
+      <div class="col-md-4"></div>
+      <div class="col-md-6 text-right">
+        <h1 class="text-uppercase">Alan Chew</h1>
+        <h3 class="text-thin text-muted">Front-end Ninja</h3>
+      </div>
+      <div class="col-md-2"><img class="img-responsive img-circle" src="images/smuggs_profile.jpg.png"></div>
+    </div>
+  </div>
+
+
+
+<div class="container">
+    <div class="row top-margin">
+      <div class="col-md-12">
+       <img class="img-responsive" src="images/poko_panorama.jpg">
+      </div>
+    </div>
+</div>
+
+<hr>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 text-center">
+      <h2>Who we are.</h2>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+  <div class="row">
+    <div class="col-md-2"> 
+      <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button> -->
+</div>
+    <div class="col-md-8"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus incidunt, ipsum eum amet, magni earum maiores id mollitia. Aperiam optio neque illum inventore deserunt, doloremque laboriosam ab accusantium? Dolor, quis.</div>
+    <div class="col-md-2"></div>
+  </div>
+</div>
+
+
+<hr>
+<div class="gray-background">
+<div class="container">
+  <div class="row top-margin">
+    <div class="col-md-12">
+      <h2>Featured Work</h2>
+    </div>
+  </div>
+  <div class="row bottom-margin">
+      <div class="col-md-6">
+<!--         <button type="button" data-toggle="modal" data-target="#project1"> -->
+<!-- img modal -->
+          <img class="img-responsive" src="images/rapelling.jpg" alt="Liz is rapelling" data-toggle="modal" data-target="#project1">
+        <!-- </button> -->
+
+        <h3>Challenge Your Fears.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque vel voluptates quibusdam, voluptatem dignissimos, repellat ea quaerat expedita fuga dolorum accusamus doloremque ex laborum minus deserunt nobis nemo nihil?</p>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive" src="images/around_the_corner.jpg" alt="Megan is climbing">
+        <h3>See what's around the corner...</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ea quam ipsam architecto! Tenetur quam libero odit temporibus blanditiis distinctio, aliquid, amet accusantium, earum ipsum autem culpa, accusamus repudiandae soluta.</p>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+    </div>
+</div> 
+</div>
+
+<div class="container">
+  <div class="row top-margin">
+    <div class="col-md-12">
+      <h2>Featured Work</h2>
+    </div>
+  </div>
+  <div class="row bottom-margin">
+      <div class="col-md-6">
+        <img class="img-responsive" src="http://placehold.it/555x300">
+        <h3>Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-responsive" src="http://placehold.it/555x300">
+        <h3>Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+  </div>
+</div>
+
+<div class="gray-background">
+<div class="container">
+  <div class="row top-margin bottom-margin">
+    <div class="col-md-12 text-center"> Made by Alan Chew </div>
+  </div>
+</div>
+</div>
+
+<!-- modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/rapelling.jpg" alt="Liz is rapelling" class="img-responsive">
+        Liz is challenging her fears of heights. It is exciting to challenge your comfort zones,
+          and you will be the better for doing so!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- end of modal -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+  </body>
+</html>
